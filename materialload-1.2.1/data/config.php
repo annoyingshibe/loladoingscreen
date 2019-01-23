@@ -1,0 +1,30 @@
+<?php
+	$logo = "logo.png";
+	$background = "bg.jpg";
+	$backgroundFade = true;
+	$fadeTime = "25";
+	$welcomeMessage = "Hey there, [USERNAME]!";
+	$showSteamID = true;
+	$fetchDarkRPwallet = false;
+	$currencySymbol = "$";
+	$currencySymbolSide = "left";
+	$fallbackWalletBalance = "";
+	$servername = "";
+	$dbname = "darkrp";
+	$username = "";
+	$password = "";
+	$introductionTitle = "Introduction";
+	$introductionText = "MaterialLoad is a sleek loading screen with a vast array of features including a dynamic fading background color for any image, fetching players' information from Steam, displaying their DarkRP wallet balance and showing the download status and progress.<br><br>Nearly everything you see here can be customized with the help of a simple configuration file.";
+	$youtubeVideoIDs = array ("X5mcY8ecs8I","60ItHLz5WEA","1-xGerv5FOk");
+	$youtubeVideoVolume = 100;
+	$rulesTitle = "Server rules";
+	$rules = array ("Be respectful to other players.","Do not spam in any way.","Use common sense.");
+	$staffMembersTitle = "Server team";
+	$staffMembers = array ("76561198080574798"=>"Founder","76561198131926932"=>"Developer");
+	$serversTitle = "Our servers";
+	$servers = array ("");
+	$cardOrdering = array ('welcome'=>true,'introduction'=>true,'staff'=>true,'rules'=>true,'servers'=>true,'download'=>true);
+	$colorScheme = "light";
+	$cardAnimation = "jackInTheBox";
+	$authorizedUsers = array ("");
+?>
